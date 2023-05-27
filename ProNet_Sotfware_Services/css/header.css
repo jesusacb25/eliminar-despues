@@ -1,6 +1,4 @@
-:root {
-    --dark-blue:#060922;
-}
+@import "colors.css";
 
 header {
     position: relative;
@@ -20,6 +18,10 @@ h1 {
 h2 {
     font-size: 15px;
     color: #fff;
+}
+h3{
+    font-size: 13px;
+    color: var(--font);
 }
 
 header img {

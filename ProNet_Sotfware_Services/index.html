@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ProNet Services</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-xpN9EXCEvNka0CQsBj8kV4ATmTujVa/8jhrhGm+kzLkaeNp1eXdJFvtG4E+bvL+9XaAzAPq4K+drCKptiCsMTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,39 +21,90 @@
     />
     <link rel="stylesheet" href="css/body.css" />
     <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="js/main.js">
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <script>
+      window.addEventListener("scroll", function () {
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("abajo", window.scrollY > 0);
+      });
+    </script>
   </head>
   <body class="grid-container">
     <header class="header">
-        <div class="titulo"><h1>WELCOME TO PRONET SERVICES</h1>
-            <h2>Una empresa dedicada en la calidad del sofware</h2>
+      <div class="content-header">
+        <div class="titulo">
+          <h1>WELCOME <br />TO PRONET SERVICES</h1>
+          <h2>Una empresa dedicada en la calidad del sofware</h2>
         </div>
-        <img src="https://amincodes.com/html/flex-it/assets/images/hero/illustration-1.png" alt="">
+        <img
+          src="https://amincodes.com/html/flex-it/assets/images/hero/illustration-1.png"
+          alt=""
+        />
+      </div>
     </header>
-      <nav>
-        <a href="#" class="logo">ProNet Services</a>
-        <ul>
-          <li>
-            <a href="#">Inicio</a>
-          </li>
-          <li>
-            <a href="#">Nosotros</a>
-          </li>
-          <li>
-            <a href="#">Servicios</a>
-          </li>
-          <li>
-            <a href="#">Portafolio</a>
-          </li>
-          <li>
-            <a href="#">Contacto</a>
-          </li>
-        </ul>
-        <a href="#"><img src="#" alt="informacion legal"></a>
-      </nav>
+    <nav class="nav-menu">
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="menu-icon"><img src="svg/menu-svgrepo-com.svg" /></i>
+      </label>
+      <a href="#" class="title">ProNet Services</a>
+      <ul>
+        <li>
+          <a href="#">Inicio</a>
+        </li>
+        <li>
+          <a href="#">Nosotros</a>
+        </li>
+        <li>
+          <a href="#">Servicios</a>
+        </li>
+        <li>
+          <a href="#">Portafolio</a>
+        </li>
+        <li>
+          <a href="#">Contacto</a>
+        </li>
+      </ul>
+      <i class="fa-regular fa-check"></i
+      ><i class="fas fa-balance-scale icon2"></i>
+    </nav>
     <aside class="sidebar">sidebar</aside>
     <article class="main">principal</article>
-    <footer class="footer">footer</footer>
+    <footer class="footer">
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <a href="#">
+              <img src="svg/" alt="Logo de la empresa" />
+            </a>
+          </figure>
+        </div>
+        <div class="box">
+          <h2>SOBRE NOSOTROS</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?
+          </p>
+        </div>
+        <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small
+          >&copy; 2023 <b>ProNet Services</b> - Todos los Derechos Reservados.</small
+        >
+      </div>
+    </footer>
   </body>
 </html>

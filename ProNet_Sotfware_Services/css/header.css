@@ -1,29 +1,52 @@
 :root {
-    --dark-blue:#060922;
+  --dark-blue: #060922;
 }
 
 header {
-    position: relative;
-    width: 100%;
-    background-color: var(--dark-blue);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  width: 100%;
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
-    margin-right: 10px;
-    float: start;
-    color: #fff;
+  font-size: 50px;
+  margin-right: 10px;
+  float: start;
+  color: #fff;
 }
 
 h2 {
-    font-size: 15px;
-    color: #fff;
+  font-size: 15px;
+  color: #fff;
 }
 
 header img {
-    max-width: 500px;
-    max-height: 474px;
+  width: 500px;
+  height: 474px;
+}
 
+@media (max-width: 900px) {
+  header img {
+    width: 400px;
+    height: 300px;
+  }
+  .content-header {
+    display: grid;
+    grid-column: auto;
+  }
+  .titulo {
+    margin-top: 100px;
+  }
+  h1 {
+    font-size: 50px;
+  }
 }

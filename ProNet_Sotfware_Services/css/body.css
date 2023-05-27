@@ -39,7 +39,7 @@ body {
     "header"  100vh
     "main"    auto
     "sidebar" 100px
-    "footer"  100px;
+    "footer"  auto;
 }
 
 .navbar {
@@ -53,7 +53,7 @@ body {
       "header  header" 100vh
       "main    sidebar" auto
       "footer  footer" 100px /
-      auto     200px;
+      auto      auto;
   }
 
   .navbar {
@@ -70,7 +70,7 @@ body {
       "header  header  header"  100vh
       "main    main    sidebar" auto
       "footer  footer  footer"  100px /
-       auto     auto   400px;
+       auto     auto   auto;
   }
 
 

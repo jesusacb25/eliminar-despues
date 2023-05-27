@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@1&display=swap');
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 20px 20px;
+}
+nav ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.7s;
+}

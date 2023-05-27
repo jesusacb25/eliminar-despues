@@ -1,0 +1,19 @@
+:root {
+    --dark-blue:#060922;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    max-width: 500px;
+    max-height: 474px;
+    position: absolute;
+    right: 100px;
+}

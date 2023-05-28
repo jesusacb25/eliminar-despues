@@ -116,6 +116,31 @@ body {
   justify-content: center;
   gap: 30px;
 }
+
+.tyc-it{
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 0;
+  margin:0;
+  height: 80px;
+  width: 100%;
+}
+.tyc-it-e{
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 3px;
+  margin:0;
+  height: 250px;
+  width: 100%;
+}
+.tyc-it-f{
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 0;
+  margin:0;
+  height: 150px;
+  width: 100%;
+}
 .container-tyc .tyc-1 img{
   width: 400px;
   height: 500px;
@@ -126,5 +151,13 @@ body {
   height: 500px;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
+  justify-content: space-between;
+}
+.tyc-2 h3{
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.tyc-2 p{
+  text-align: left;
+  color: var(--font-secundary);
 }

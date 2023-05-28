@@ -1,6 +1,7 @@
 @import "header.css";
 @import "nav.css";
 @import "main.css";
+@import "about.css";
 *{
   box-sizing: border-box;
   margin: 0;

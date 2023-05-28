@@ -106,24 +106,24 @@ body {
 }
 .tyc-title{
   padding: 30px;
-  border-bottom: 5px solid var(--dark-blue);
-  background-color: var(--pseudo-dark);
   width: 50%;
   display: inline-block;
+  font-size: 20px;
   border-radius: 7px;
 }
 .tyc-container-two{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 30px;
 }
 .container-tyc .tyc-1 img{
   width: 400px;
-  height: 550px;
+  height: 500px;
   margin: 0;
 }
 .tyc-2{
   width: 400px;
-  height: 550px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   border: 1px solid red;

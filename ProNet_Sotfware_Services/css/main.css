@@ -1,7 +1,4 @@
 @import "colors.css";
-* {
-    border: 1px solid black;
-}
 .main{
     background: var(--dark-blue);
 }

@@ -1,0 +1,43 @@
+@import "colors.css";
+
+.about{
+    height: 70vh;
+    background: var(--dark-blue);
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about .about-title{
+    padding: 30px;
+    border: 3px solid var(--dark-border);
+    background: var(--dark-blue-strong);
+    border-radius: 7px;
+    width: 50%;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+
+}
+.about-items{
+    border: 3px solid var(--dark-border);
+    width: 500px;
+    height: auto;
+    color: var(--font);
+    padding: 30px;
+    background: var(--dark-blue-strong);
+    border-radius:7px;
+}
+.about-items h3{
+    font-size: 20px;
+    padding: 15px;
+    padding-top: 0;
+}
+.about-items p{
+    text-align: left;
+    color: var(--font-secundary);
+}

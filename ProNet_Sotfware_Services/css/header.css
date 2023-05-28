@@ -1,6 +1,10 @@
+<<<<<<< HEAD
+@import "colors.css";
+=======
 :root {
   --dark-blue: #060922;
 }
+>>>>>>> bfbdc3044736e4aefa47b81a360e5c0863d537de
 
 header {
   position: relative;
@@ -29,6 +33,10 @@ h1 {
 h2 {
   font-size: 15px;
   color: #fff;
+}
+h3{
+    font-size: 13px;
+    color: var(--font);
 }
 
 header img {

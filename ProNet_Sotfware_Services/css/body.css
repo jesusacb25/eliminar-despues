@@ -1,4 +1,6 @@
-
+@import "header.css";
+@import "nav.css";
+@import "main.css";
 *{
   box-sizing: border-box;
   margin: 0;
@@ -68,7 +70,8 @@ body {
   .grid-container {
     grid-template:
       "header  header  header"  100vh
-      "main    main    sidebar" auto
+      "main    main    main"    auto
+      "sidebar sidebar sidebar" auto
       "footer  footer  footer"  100px /
        auto     auto   auto;
   }

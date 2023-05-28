@@ -13,11 +13,12 @@ nav {
 }
 
 nav.abajo {
-    background-color: #2e3d7a;
+  background-color: #2e3d7a;
   padding: 15px 20px;
 }
 
-nav.abajo .logo, nav.abajo ul li a{
+nav.abajo .logo,
+nav.abajo ul li a {
   color: #ffffff;
 }
 
@@ -78,13 +79,52 @@ nav ul li a {
 .checkbtn {
   display: none;
 }
-#check:checked ~ nav {
-  flex-direction: column;
-  align-items: end;
-  height: 100%;
-}
 
 .icon2 {
   color: #fff;
 }
 
+@media (max-width: 600px) {
+  .checkbtn {
+    display: initial;
+  }
+
+  nav {
+    justify-content: start;
+  }
+  nav ul {
+    display: inline-block;
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    background: var(--dark-blue);
+    top: 0;
+    left: -500px;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+ 
+  li a:hover,
+  li a.active {
+    background: none;
+    color: red;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+
+  nav.abajo {
+    background-color: initial;
+  }
+
+  nav.abajo .logo,
+  nav.abajo ul li a {
+    color: #fff;
+  }
+  
+}

@@ -1,7 +1,6 @@
 @import "colors.css";
 .main {
   background: var(--dark-blue);
-  background: linear-gradient(var(--dark-blue),#fff 200rem);
 }
 .main-container{
   max-width: 100vw;

@@ -26,9 +26,7 @@ body {
   grid-area: header;
   background: linear-gradient(var(--dark-blue),#1a0030 70rem);
 }
-.sidebar {
-  grid-area: sidebar;
-}
+
 .main {
   grid-area: main;
 }

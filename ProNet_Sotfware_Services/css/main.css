@@ -3,6 +3,10 @@
   background: var(--dark-blue);
 }
 .main-container{
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 28rem; /*Separacion por filas*/
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   max-width: 100vw;
   height: 65vh;
   position: relative;

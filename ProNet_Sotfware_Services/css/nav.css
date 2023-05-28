@@ -9,6 +9,7 @@ nav {
   justify-content: space-around;
   transition: 0.7s;
   padding: 20px 20px;
+  z-index: 10;
 }
 
 nav.abajo {

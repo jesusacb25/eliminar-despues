@@ -82,27 +82,13 @@ nav ul li a:hover{
 .checkbtn {
   display: none;
 }
-#check:checked ~ ul {
-  left: 500px;
-  margin-right: 10px;
-  display: inline-block;
-  transition: all 1s;
+#check:checked ~ nav {
+  flex-direction: column;
+  align-items: end;
+  height: 100%;
 }
 
 .icon2 {
   color: #fff;
 }
 
-@media (max-width: 900px) {
-  nav ul {
-    position: absolute;
-    left: 100rem;
-  }
-
-  .checkbtn {
-    display: initial;
-  }
-  nav {
-    justify-content: start;
-  }
-}

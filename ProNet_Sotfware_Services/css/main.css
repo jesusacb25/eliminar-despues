@@ -20,6 +20,7 @@
   width: 50%;
   border-radius: 10px;
   background: var(--dark-blue-strong);
+  margin-bottom: 30px;
 }
 .main-items-container {
   display: flex;

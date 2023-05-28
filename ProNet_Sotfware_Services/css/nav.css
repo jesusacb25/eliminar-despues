@@ -10,6 +10,16 @@ nav {
   transition: 0.7s;
   padding: 20px 20px;
 }
+
+nav.abajo {
+    background-color: #2e3d7a;
+  padding: 15px 20px;
+}
+
+nav.abajo .logo, nav.abajo ul li a{
+  color: #ffffff;
+}
+
 nav ul {
   position: relative;
   display: flex;

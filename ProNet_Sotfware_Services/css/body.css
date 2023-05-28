@@ -84,7 +84,6 @@ body {
     grid-template:
       "header  header  header"  100vh
       "main    main    main"    auto
-      "sidebar sidebar sidebar" auto
       "footer  footer  footer"  100px /
        auto     auto   auto;
   }
